@@ -1,0 +1,24 @@
+# .NET build output
+**/bin/
+**/obj/
+.vs/
+*.user
+*.suo
+*.csproj.user
+TestResults/
+
+# Node.js build output
+node_modules/
+dist/
+coverage/
+npm-debug.log*
+
+# Local configuration and secrets
+.env
+.env.*
+!.env.example
+secrets.json
+
+# Local logs and editor state
+*.log
+.vscode/
